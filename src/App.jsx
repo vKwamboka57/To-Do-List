@@ -1,5 +1,5 @@
 
-import ToDoList from '../../react-to-do-list/src/ToDoList.jsx'
+import ToDoList from './ToDoList.jsx'
 
 
 function App() {
