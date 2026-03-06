@@ -1,0 +1,109 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    color:rgb(65, 65, 65);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.container{
+    max-width: 1200px;
+    width:90%;
+    margin:0 auto;
+}
+h1{
+    line-height: 1.2;
+    letter-spacing: -2px;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color:rgb(71, 71, 71);
+}
+
+input{
+    font-size:1.8rem;
+    border:2px solid rgb(189, 188, 188);
+    padding:0.5rem 1rem;
+    border-radius: 10px;
+    color:rgb(65, 65, 65);
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    padding:0.5rem 1.5rem;
+    color:#313131;
+    font-size: 1.8rem;
+    margin-left:1rem;
+    border-radius: 8px;
+    border:2px solid rgb(194, 190, 190);
+    cursor:pointer;
+    background-color: rgb(106, 250, 106);
+}
+.add{
+    background-color: rgb(106, 250, 106);
+    transition:background-color 0.5s ease-in-out;
+}
+.add:hover{
+    background-color: rgb(109, 228, 160);
+}
+.delete {
+    background-color: #ff9595;
+    color: rgb(44, 44, 44);
+    transition: background-color 0.5s ease-in-out;
+
+}
+.delete:hover{
+    background-color: #f77171;
+}
+
+.move {
+    background-color: rgb(26, 40, 54);
+    padding: 0.5rem 3rem;
+    transition: background-color 0.5s ease-in-out;
+}
+.move:hover{
+    background-color: rgb(67, 116, 161);
+}
+.input-check{
+    margin-bottom: 2rem;
+}
+
+.to-do-list{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(230, 228, 228);
+    padding:3rem 1rem;
+    margin:2rem 0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px rgb(116, 114, 114);
+    
+}
+ol{
+    list-style: none;
+}
+.text{
+    flex:1;
+}
+ol li{
+    margin:1rem 0;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    background-color: rgb(179, 194, 243);
+    box-shadow:2px 2px 2px rgb(75, 85, 100);
+    display:flex;
+    align-items: center;
+}
+
